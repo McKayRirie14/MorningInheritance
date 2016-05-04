@@ -14,15 +14,16 @@ public class InheritanceController
 		makeSillyList();
 		//build view
 	}
-	private ArrayList<SillyThing> sillyThing;
-	{
-		
-	}
+	private ArrayList<SillyThing> sillyThings;
 	
 	public String showSillyLevels()
 	{
-		
+		String sillyLe("This is a " + currentSilly.toString() +
+				"and has a silliness level of " + currentSilly.sillinessLevel() +""
+	
 	}
+	
+}
 	
 	private void makeSillyList()
 	{
